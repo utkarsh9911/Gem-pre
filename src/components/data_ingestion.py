@@ -1,0 +1,31 @@
+import pandas
+import numpy
+
+from src.logging.logger import logging
+from src.exception.exception import customexception
+
+
+import os 
+import sys
+from sklearn.model_selection import train_test_split
+
+from dataclasses import dataclass
+from pathlib import Path
+@dataclass
+
+
+class DataIngestionConfig:
+    pass
+
+class DataIngestion:
+    def __init__(self):
+        pass
+
+    def initiate_data_ingestion(self):
+        try:
+            pass
+        except Exception as e:
+            raise customexception(e,sys)
+        
+      
+
